@@ -253,7 +253,7 @@ class _NotePageState extends State<NotePage> {
   }
 
   Future<void> _sendNoteToApi(String broadcastId, String plannedDate, String event) async {
-    final url = Uri.parse('https://....:0000/api/notes');
+    final url = Uri.parse('https://gutolcam.com:2121/api/notes');
     try {
       final response = await http.post(
         url,
