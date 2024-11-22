@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.nosqapp"
+    namespace = "com.housependent.nosq"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
