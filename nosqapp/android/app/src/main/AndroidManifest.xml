@@ -1,6 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.housependent.nosq">
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="nosQ"
         android:name="${applicationName}"
@@ -33,7 +31,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
-
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
@@ -45,5 +42,4 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
-
 </manifest>

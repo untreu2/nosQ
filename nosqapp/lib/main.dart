@@ -114,6 +114,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Login'),
+        centerTitle: true,
       ),
       body: Center(
         child: Padding(
@@ -316,6 +317,7 @@ class _NotePageState extends State<NotePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         leading: IconButton(
           icon: Icon(Icons.logout),
           onPressed: _logout,
@@ -383,6 +385,7 @@ class PlannedNotesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Scheduled Notes'),
       ),
       body: Center(
